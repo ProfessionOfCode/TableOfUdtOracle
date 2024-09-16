@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "TableOfUDTOracle.API": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7088",
+      "launchBrowser": false
+    }
+  }
+}

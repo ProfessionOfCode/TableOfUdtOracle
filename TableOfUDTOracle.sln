@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{564B71DB-9222-4D02-A702-FEC56BFB5A32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TableOfUdtOracle.Functions.API", "src\TableOfUdtOracle.API\TableOfUdtOracle.Functions.API.csproj", "{65A80724-C303-4372-BD97-7C019A93A8C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TableOfUdtOracle.Infrastructure", "src\TableOfUdtOracle.Infrastructure\TableOfUdtOracle.Infrastructure.csproj", "{1B6A7E9F-C24A-42DB-83B8-B938FB8794ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TableOfUdtOracle.ApplicationCore", "src\TableOfUdtOracle.ApplicationCore\TableOfUdtOracle.ApplicationCore.csproj", "{545DEAC9-6C8C-49F5-A5F7-D29DFFB93DAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TableOfUdtOracle.Domain", "src\TableOfUdtOracle.Domain\TableOfUdtOracle.Domain.csproj", "{FD9BEE59-A742-4560-B02A-C973FB9042E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TableOfUdtOracleUnitTests", "tests\TableOfUdtOracleUnitTests\TableOfUdtOracleUnitTests.csproj", "{D7FC33B8-E5E1-4826-A55C-AF7B867E44E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ressource", "ressource", "{59124947-67C4-44EA-998C-9E3DE61A6547}"
+	ProjectSection(SolutionItems) = preProject
+		ressource\Gaming.jpeg = ressource\Gaming.jpeg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{55FE2777-2DAD-4FB5-8BC1-CC3C8E6A1708}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\Requests PLSQL\STEPANEDBAPCKG.pls = ..\..\..\Documents\Requests PLSQL\STEPANEDBAPCKG.pls
+		..\..\..\Documents\Requests PLSQL\STEPANEDBAPCKGBody.pls = ..\..\..\Documents\Requests PLSQL\STEPANEDBAPCKGBody.pls
+		..\..\..\Pictures\TableOfUdtOracle.PNG = ..\..\..\Pictures\TableOfUdtOracle.PNG
+		..\..\..\Documents\Requests PLSQL\TYPE_DEMANDE_DOC_REC.pls = ..\..\..\Documents\Requests PLSQL\TYPE_DEMANDE_DOC_REC.pls
+		..\..\..\Documents\Requests PLSQL\TYPE_DEMANDE_DOC_TAB.pls = ..\..\..\Documents\Requests PLSQL\TYPE_DEMANDE_DOC_TAB.pls
+		..\..\..\Documents\Requests PLSQL\TYPE_DEMANDE_REC.pls = ..\..\..\Documents\Requests PLSQL\TYPE_DEMANDE_REC.pls
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65A80724-C303-4372-BD97-7C019A93A8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A80724-C303-4372-BD97-7C019A93A8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A80724-C303-4372-BD97-7C019A93A8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A80724-C303-4372-BD97-7C019A93A8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6A7E9F-C24A-42DB-83B8-B938FB8794ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6A7E9F-C24A-42DB-83B8-B938FB8794ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6A7E9F-C24A-42DB-83B8-B938FB8794ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6A7E9F-C24A-42DB-83B8-B938FB8794ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545DEAC9-6C8C-49F5-A5F7-D29DFFB93DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545DEAC9-6C8C-49F5-A5F7-D29DFFB93DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545DEAC9-6C8C-49F5-A5F7-D29DFFB93DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545DEAC9-6C8C-49F5-A5F7-D29DFFB93DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9BEE59-A742-4560-B02A-C973FB9042E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9BEE59-A742-4560-B02A-C973FB9042E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9BEE59-A742-4560-B02A-C973FB9042E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9BEE59-A742-4560-B02A-C973FB9042E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7FC33B8-E5E1-4826-A55C-AF7B867E44E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FC33B8-E5E1-4826-A55C-AF7B867E44E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FC33B8-E5E1-4826-A55C-AF7B867E44E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FC33B8-E5E1-4826-A55C-AF7B867E44E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65A80724-C303-4372-BD97-7C019A93A8C9} = {564B71DB-9222-4D02-A702-FEC56BFB5A32}
+		{1B6A7E9F-C24A-42DB-83B8-B938FB8794ED} = {564B71DB-9222-4D02-A702-FEC56BFB5A32}
+		{545DEAC9-6C8C-49F5-A5F7-D29DFFB93DAA} = {564B71DB-9222-4D02-A702-FEC56BFB5A32}
+		{FD9BEE59-A742-4560-B02A-C973FB9042E4} = {564B71DB-9222-4D02-A702-FEC56BFB5A32}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CE35743-0385-4CFF-9F75-D71CC3C4110E}
+	EndGlobalSection
+EndGlobal
