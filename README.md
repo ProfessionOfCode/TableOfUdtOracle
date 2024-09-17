@@ -2,7 +2,7 @@
 How to add a table of UDT (element object having a Oracle Blob column/field) defined in Oracle Types passed as parameter to a Stored procedure defined in an Oracle package.  Custom types generated with Oracle Developer tools for visual studio 2022. 
 <hr/>
 
-# Why this project? To anwser these questions :
+# Why this project? To answer these questions :
 - How to send a table of Oracle UDT as parameter to Oracle Stored Procedure defined in a Package.
 - How to make an integration test of an Azure function triggered by a service bus topic message.
 - How to add a local.settings.json in a test project via Dependency injection, by referencing the API project.
