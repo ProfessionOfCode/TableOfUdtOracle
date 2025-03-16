@@ -1,0 +1,20 @@
+@startuml
+/'Declaration of entities, actors, participants, and databases. 
+(actor, boundary, control, entity, database, collections).'/
+actor User
+participant "Azure function App API" as API
+database "Request Database " as Oracle
+
+User -> API: Make a permit request
+
+User <- API: Acknowledge response
+
+API -> API: Business validation
+
+API -> Oracle: Save permit
+
+Oracle -> API: Database response
+
+User <- API: request status response
+
+@enduml
