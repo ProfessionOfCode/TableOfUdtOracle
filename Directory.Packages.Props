@@ -1,0 +1,31 @@
+<Project>
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageVersion Include="Oracle.EntityFrameworkCore" Version="8.23.50" />
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker" Version="1.21.0" />
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.1.0" />
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore" Version="1.2.0" />
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.ServiceBus" Version="5.16.0" />
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.17.0" />
+		<PackageVersion Include="Microsoft.ApplicationInsights.WorkerService" Version="2.22.0" />
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker.ApplicationInsights" Version="1.2.0" />
+		<PackageVersion Include="Microsoft.IdentityModel.Logging" Version="6.35.0" />
+		<PackageVersion Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageVersion Include="Oracle.ManagedDataAccess.Core" Version="23.5.1" />
+		<PackageVersion Include="Swashbuckle.AspNetCore.Filters" Version="8.0.2" />
+		<PackageVersion Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.7.3" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.8" />
+		<PackageVersion Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="8.0.8" />
+		<PackageVersion Include="System.Formats.Asn1" Version="8.0.1" />
+		<PackageVersion Include="coverlet.collector" Version="6.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+		<PackageVersion Include="NSubstitute" Version="5.1.0" />
+		<PackageVersion Include="xunit" Version="2.5.3" />
+		<PackageVersion Include="xunit.runner.visualstudio" Version="2.5.3" />
+	</ItemGroup>
+</Project>
