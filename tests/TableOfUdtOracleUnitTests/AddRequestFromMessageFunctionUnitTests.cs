@@ -9,7 +9,6 @@ using Microsoft.VisualStudio.TestPlatform.TestHost;
 using Newtonsoft.Json;
 using NSubstitute;
 using Oracle.ManagedDataAccess.Client;
-using System.Diagnostics;
 using System.Text;
 using TableOfUdtOracle.ApplicationCore.Dtos.Requests;
 using TableOfUdtOracle.ApplicationCore.Services;
